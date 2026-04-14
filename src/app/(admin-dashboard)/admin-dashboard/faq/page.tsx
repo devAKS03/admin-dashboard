@@ -1,9 +1,4 @@
-type AdminPageProps = {
-  title: string;
-  description: string;
-};
-
-export default function AdminPage({ title, description }: AdminPageProps) {
+export default function FAQPage() {
   return (
     <section className="space-y-6">
       <header className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
@@ -11,10 +6,10 @@ export default function AdminPage({ title, description }: AdminPageProps) {
           Admin Section
         </p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-900">
-          {title}
+          FAQ
         </h2>
         <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
-          {description}
+          Review and manage frequently asked questions, configure display answers, and organize help categories to serve user needs efficiently.
         </p>
       </header>
 
